@@ -1,5 +1,14 @@
-let a=3;
-let b=6;
+
 function add(){
-    console.log("a+b");
+    console.log("hello");
 }
+
+
+
+
+
+
+function sum(a,b){
+     console.log("a+b");
+}
+sum(7,8);

@@ -1,3 +1,2 @@
-let a=15;
-
-let b=7;
+const a=7
+let b='Hi';

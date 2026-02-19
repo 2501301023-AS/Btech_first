@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.list-items {
+    display: flex;
+    list-style: none;
+    padding: 30px;
+    gap: 20px;
+}
+
+.main-section {
+    background-image: url(/3.png);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    color: white;
+    background-color: rgba(6, 5, 5, 0.6);
+}
+
+.overlay p {
+    margin: 1rem, 2rem;
+    font-size: larger;
+}
+
+p {
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 20px;
+    /* padding: 100rem,1rem,1rem,1rem; */
+    background-color: skyblue;
+    padding: 11px 10vw;
+    font-size: xx-large;
+    border-radius: 15px;
+}
+
+.cards-list {
+    border: 10px solid white;
+    background-color: aliceblue;
+
+    font-size: large;
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    /* width: 15vw;
+    height: 35vh; */
+    border-radius: 15px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+
+    margin-right: 50px;
+
+
+}
+.cards-container-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* margin-top: -250px; */
+    margin-right: 50px;
+
+
+}
+
+.cards {
+    display: flex;
+
+    justify-content: center;
+    /* gap: 25px; */
+    padding: 0 40px 60px;
+    flex-wrap: wrap;
+    margin-left: 200px;
+}
+
+.card {
+    background: white;
+    width: 260px;
+    padding: 25px 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+    font-size: large;
+    margin-left: 1vw;
+    margin-top: 10vh;
+}
+
+
+
+@media screen and (max-width: 768px){
+ .list-items{
+    display:none;
+ }   
+ .cards-container{
+    flex-direction: column;
+ }
+ .cards-container-2{
+    flex-direction: column;
+    margin-left: 250px;
+ }
+ .card{
+    padding-left:150px;
+    padding-right:200px;
+ }
+
+}

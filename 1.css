@@ -1,0 +1,17 @@
+body{
+    background-color: red;
+    height: 600px;
+    width: 600px;
+}
+@media screen and (max-width:768px) {
+    body{
+        background-color: blue;
+        font-style: italic;
+    }}
+    @media screen and (max-width:576px) {
+    body{
+        background-color: green;
+        font-family: Arial;
+    }
+}
+

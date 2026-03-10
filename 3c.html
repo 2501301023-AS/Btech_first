@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventMaster | Professional Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { scroll-behavior: smooth; }
+        .hero-section { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?auto=format&fit=crop&w=1350&q=80'); 
+                        height: 60vh; background-size: cover; color: white; display: flex; align-items: center; justify-content: center; text-align: center; }
+        section { padding: 80px 0; }
+        .navbar-brand { font-weight: bold; letter-spacing: 1px; }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-calendar-check me-2"></i>EventMaster</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#dashboard">Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero-section">
+        <div class="container">
+            <h1 class="display-3 fw-bold">Plan Your Next Big Move</h1>
+            <p class="lead">The all-in-one platform for corporate events, weddings, and concerts.</p>
+            <a href="#dashboard" class="btn btn-primary btn-lg mt-3">Manage Events</a>
+        </div>
+    </header>
+
+    <section id="about" class="bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="fw-bold">Reliable. Scalable. Simple.</h2>
+                    <p class="text-muted">EventMaster was built to solve the chaos of planning. Whether you're handling 50 guests or 50,000, our system ensures nothing falls through the cracks.</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=500&q=60" class="img-fluid rounded shadow" alt="About Event Planning">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container text-center">
+            <h2 class="mb-5 fw-bold">Our Core Services</h2>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-4">
+                        <i class="fas fa-users fa-3x text-primary mb-3"></i>
+                        <h3>Guest Management</h3>
+                        <p>Track RSVPs, dietary needs, and seating charts effortlessly.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-4">
+                        <i class="fas fa-wallet fa-3x text-success mb-3"></i>
+                        <h3>Budgeting</h3>
+                        <p>Stay on track with real-time expense reporting and vendor payments.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-4">
+                        <i class="fas fa-map-marker-alt fa-3x text-danger mb-3"></i>
+                        <h3>Venue Sourcing</h3>
+                        <p>Find the perfect location with our curated list of partner venues.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dashboard" class="bg-light">
+        <div class="container">
+            <h2 class="mb-4">Live Event Dashboard</h2>
+            <div class="table-responsive">
+                <table class="table table-white bg-white shadow-sm rounded">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>#ID</th>
+                            <th>Event Title</th>
+                            <th>Type</th>
+                            <th>Date</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>#001</td>
+                            <td>Global AI Summit</td>
+                            <td>Tech</td>
+                            <td>March 12, 2026</td>
+                            <td><button class="btn btn-sm btn-outline-primary">View</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card p-4 shadow">
+                        <h2 class="text-center mb-4">Get in Touch</h2>
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label">Name</label>
+                                <input type="text" class="form-control" placeholder="John Doe">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control" placeholder="name@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Message</label>
+                                <textarea class="form-control" rows="3"></textarea>
+                            </div>
+                            <button class="btn btn-dark w-100">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2026 EventMaster. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

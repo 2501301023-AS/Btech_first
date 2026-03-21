@@ -15,3 +15,9 @@ else{
     }).catch((rej)=>{
         console.log(rej);
     });
+// imp question:-
+    // apply arrow function to tradisional function 
+    // map,filter reduce
+    // how to apply promise to exicute async function 
+    // ES6:-let const promise,asyn await
+    //  compare callback function ,promise and async function 

@@ -1,9 +1,11 @@
 import React from 'react'
+import Abcd from './Abcd'
 
-const Mnop = () => {
+const Mnop = ({data}) => {
   return (
     <div>
-      ths is mnop component
+      <h1>{data}</h1>
+      <Abcd b={data}/>
     </div>
   )
 }

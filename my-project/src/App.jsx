@@ -3,17 +3,16 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
-import Abcd from './Components/Abcd'
 import Mnop from './Components/Mnop'
-
 function App() {
-  const [count, setCount] = useState(0)
+  const a = "this is props data"//define data.
 
   return (
-  <div>
-    This is app
-<Mnop/>
-  </div>
+    <div>
+      This is app
+      <Mnop data={a} />
+      {/* pass props data to child component. */}
+    </div>
   )
 }
 

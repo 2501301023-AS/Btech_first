@@ -1,9 +1,11 @@
 import React from 'react'
-
-const Abcd = () => {
+import Xyz from "./Xyz";
+const Abcd = ({ b }) => {
   return (
     <div>
-      rgyshufserhykkthisd id my file
+     this is abcd
+     <h3>{b}</h3>
+     <Xyz c={b}/>
     </div>
   )
 }

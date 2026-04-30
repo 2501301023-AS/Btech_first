@@ -1,4 +1,4 @@
-// MODULE START:-
+// MODULE START:-module is a file which contains some code and we can export that code and use it in another file by importing it.
 // first.js
 export const add=(a,b)=>{
     return a+b;

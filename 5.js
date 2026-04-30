@@ -1,4 +1,5 @@
-//promise
+//promise is a object which is used to handle asynchronous operation in javascript and it is used to handle the result 
+// of an asynchronous operation and it can be in one of three states:-pending,fulfilled,rejected.
 let p=new Promise((res,rej)=>{
     // promise created
     let flag=true;
